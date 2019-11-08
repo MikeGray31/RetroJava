@@ -27,7 +27,7 @@ public class FileCounting {
         int countWord = 0;
         int sentenceCount = 0;
         int characterCount = 0;
-
+	//thisisacomment
         StringReader inputString = new StringReader(filecontents);
         BufferedReader reader = new BufferedReader(inputString);
         // Reading line by line from the
@@ -58,4 +58,4 @@ public class FileCounting {
         return result;
 
         }
-}
+}	
